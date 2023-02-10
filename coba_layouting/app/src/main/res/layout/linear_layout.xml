@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lighter"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginLeft="0dp"
+            android:text="AndroRawg Store"
+            android:textColor="@color/white"
+            android:textSize="65px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:background="none"
+            android:textSize=""
+            android:drawableEnd="@drawable/baseline_favorite_24">
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="50px"
+        android:text="List Game:"
+        android:textSize="50px">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:background="@color/lighter"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="320px"
+            android:layout_height="320px"
+            android:src="@drawable/genshin"
+
+            >
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genshin Impact"
+                android:layout_marginTop="40px"
+                android:textColor="@color/white"
+                android:textSize="60px">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022-02-10"
+                android:layout_marginTop="20px"
+                android:textColor="#D0D0D0">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_star_24"
+                android:text="4.5"
+                android:textColor="#EFDA35"
+                android:textSize="50px"
+                android:layout_marginTop="20px">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

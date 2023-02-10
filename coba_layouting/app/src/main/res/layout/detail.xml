@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240px"
+        android:background="@color/lighter"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:text="  Detail Game"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="78px"
+        android:fontFamily="sans-serif">
+
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:src="@drawable/genshin2">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80px"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40px"
+            android:paddingRight="300px">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genshin Impact"
+                android:textColor="@color/white"
+                android:textSize="70px">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022-02-10"
+                android:textColor="#B0B0B0"
+                android:textSize="50px"
+                android:layout_marginTop="10px">
+
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:text="4.5"
+            android:textSize="70px"
+            android:textColor="#EFDA35"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/baseline_star_24">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action"
+            android:textColor="@color/white"
+            android:textSize="65px"
+            android:paddingRight="50px">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RPG"
+            android:textColor="@color/white"
+            android:textSize="65px"
+            android:paddingRight="50px">
+
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Game"
+        android:textColor="@color/white"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="40px"
+        android:textSize="80px"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Embark on a journey across Teyvat to find your lost sibling and seek answers from The Seven — the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds"
+        android:textColor="@color/white"
+        android:textAlignment=""
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:textSize="60px"
+        >
+
+    </TextView>
+
+</LinearLayout>

@@ -60,10 +60,10 @@ class NewsAdapter() :
 
     }
 
-    fun setData(data: List<ArticlesItem>){
-        newsList = data
-        notifyDataSetChanged()
-    }
+//    fun setData(data: List<ArticlesItem>){
+//        newsList = data
+//        notifyDataSetChanged()
+//    }
 }
 
 
